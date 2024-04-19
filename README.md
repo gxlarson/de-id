@@ -27,3 +27,4 @@ These include names (`firstname lastname`, `lastname, first_initial`, `first_ini
 ### 3. Text line orientation estimation
 An entity may appear rotated in a document. Or, a document may be rotated. We want a way to determine how much rotation an entity or document has.
 It looks like Tesseract/Pytesseract has functionality for estimating this, but we will want to determine how accurate their functionality is.
+See also [this blog post](https://www.kaggle.com/code/dhorvay/pytesseract-orientation-script-detection-osd) on how to use Pytesseract's method.
